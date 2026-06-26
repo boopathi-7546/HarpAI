@@ -1,0 +1,22 @@
+# render.yaml — Render.com deployment configuration for HarpAI
+# Docs: https://render.com/docs/yaml-spec
+
+services:
+  - type: web
+    name: harpai-chatbot
+    env: python
+    region: singapore       # Change to your preferred region
+    plan: free              # Use 'starter' for paid plans
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: FLASK_DEBUG
+        value: false
+      - key: SECRET_KEY
+        generateValue: true   # Render auto-generates a secure value
+      - key: PYTHON_VERSION
+        value: 3.11.0
+    healthCheckPath: /
+    autoDeploy: true

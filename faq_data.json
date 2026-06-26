@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "category": "General AI",
+    "question": "What is Artificial Intelligence?",
+    "answer": "Artificial Intelligence (AI) is the simulation of human intelligence in machines that are programmed to think and learn. It encompasses tasks like reasoning, learning, problem-solving, perception, and language understanding."
+  },
+  {
+    "id": 2,
+    "category": "General AI",
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a subset of AI that enables computers to learn from data and improve their performance over time without being explicitly programmed. It uses algorithms to identify patterns and make decisions."
+  },
+  {
+    "id": 3,
+    "category": "General AI",
+    "question": "What is Deep Learning?",
+    "answer": "Deep Learning is a subset of Machine Learning that uses neural networks with many layers (deep neural networks) to analyze various factors of data. It's particularly powerful for image recognition, speech recognition, and NLP tasks."
+  },
+  {
+    "id": 4,
+    "category": "General AI",
+    "question": "What is Natural Language Processing?",
+    "answer": "Natural Language Processing (NLP) is a branch of AI that deals with the interaction between computers and humans using natural language. It enables computers to understand, interpret, and generate human language."
+  },
+  {
+    "id": 5,
+    "category": "General AI",
+    "question": "What is the difference between AI, ML, and Deep Learning?",
+    "answer": "AI is the broadest concept — machines mimicking human intelligence. ML is a subset of AI where machines learn from data. Deep Learning is a subset of ML using multi-layered neural networks. Think of them as nested circles: AI > ML > Deep Learning."
+  },
+  {
+    "id": 6,
+    "category": "Python",
+    "question": "Why is Python popular for AI and ML?",
+    "answer": "Python is popular for AI/ML because of its simple syntax, rich ecosystem of libraries (NumPy, Pandas, TensorFlow, PyTorch, Scikit-learn), strong community support, and its ability to integrate easily with other languages and tools."
+  },
+  {
+    "id": 7,
+    "category": "Python",
+    "question": "What is a virtual environment in Python?",
+    "answer": "A virtual environment in Python is an isolated environment that allows you to install packages and dependencies for a specific project without affecting other projects or the global Python installation. Use `python -m venv venv` to create one."
+  },
+  {
+    "id": 8,
+    "category": "Python",
+    "question": "What is pip in Python?",
+    "answer": "pip is the standard package manager for Python. It allows you to install, upgrade, and remove Python packages from the Python Package Index (PyPI). Usage: `pip install package_name`."
+  },
+  {
+    "id": 9,
+    "category": "NLP",
+    "question": "What is tokenization in NLP?",
+    "answer": "Tokenization is the process of splitting text into smaller units called tokens — typically words or sentences. For example, 'Hello World' becomes ['Hello', 'World']. It's a fundamental first step in NLP preprocessing."
+  },
+  {
+    "id": 10,
+    "category": "NLP",
+    "question": "What are stopwords in NLP?",
+    "answer": "Stopwords are common words (like 'is', 'the', 'and', 'a') that carry little meaningful information and are typically removed during NLP preprocessing to reduce noise and improve processing efficiency."
+  },
+  {
+    "id": 11,
+    "category": "NLP",
+    "question": "What is lemmatization?",
+    "answer": "Lemmatization is the process of reducing a word to its base or root form (called a lemma). For example, 'running', 'ran', 'runs' all become 'run'. Unlike stemming, lemmatization considers the context and part of speech."
+  },
+  {
+    "id": 12,
+    "category": "NLP",
+    "question": "What is stemming?",
+    "answer": "Stemming is the process of reducing words to their root form by removing suffixes. For example, 'playing', 'plays', 'played' become 'play'. It's faster than lemmatization but less accurate as it doesn't consider context."
+  },
+  {
+    "id": 13,
+    "category": "NLP",
+    "question": "What is TF-IDF?",
+    "answer": "TF-IDF stands for Term Frequency-Inverse Document Frequency. It's a numerical statistic that reflects how important a word is to a document in a collection. TF measures word frequency in a document; IDF reduces weight of common words across all documents."
+  },
+  {
+    "id": 14,
+    "category": "NLP",
+    "question": "What is Cosine Similarity?",
+    "answer": "Cosine Similarity measures the cosine of the angle between two vectors in a multi-dimensional space. In NLP, it measures how similar two documents are regardless of their size. A score of 1 means identical; 0 means completely different."
+  },
+  {
+    "id": 15,
+    "category": "NLP",
+    "question": "What is a Bag of Words model?",
+    "answer": "The Bag of Words (BoW) model represents text as the frequency of each word in a document, ignoring grammar and word order. It converts text into a fixed-length feature vector used in text classification and information retrieval."
+  },
+  {
+    "id": 16,
+    "category": "Scikit-learn",
+    "question": "What is Scikit-learn?",
+    "answer": "Scikit-learn is a popular open-source Python library for Machine Learning. It provides simple and efficient tools for data analysis, classification, regression, clustering, dimensionality reduction, and model selection."
+  },
+  {
+    "id": 17,
+    "category": "Scikit-learn",
+    "question": "What is the TfidfVectorizer in Scikit-learn?",
+    "answer": "TfidfVectorizer in Scikit-learn converts a collection of raw text documents into a matrix of TF-IDF features. It tokenizes text, builds a vocabulary, and transforms documents into TF-IDF weighted vectors."
+  },
+  {
+    "id": 18,
+    "category": "NLTK",
+    "question": "What is NLTK?",
+    "answer": "NLTK (Natural Language Toolkit) is a leading Python platform for working with human language data. It provides tools for classification, tokenization, stemming, tagging, parsing, semantic reasoning, and more."
+  },
+  {
+    "id": 19,
+    "category": "NLTK",
+    "question": "What is WordNetLemmatizer in NLTK?",
+    "answer": "WordNetLemmatizer in NLTK uses the WordNet database to perform lemmatization. It reduces words to their dictionary base form (lemma) by considering the part of speech, providing more accurate results than simple stemming."
+  },
+  {
+    "id": 20,
+    "category": "Flask",
+    "question": "What is Flask?",
+    "answer": "Flask is a lightweight, micro web framework for Python. It is designed to be simple and flexible, allowing developers to build web applications quickly. It's called 'micro' because it doesn't require particular tools or libraries."
+  },
+  {
+    "id": 21,
+    "category": "Flask",
+    "question": "What is a REST API?",
+    "answer": "REST (Representational State Transfer) API is an architectural style for distributed hypermedia systems. It uses HTTP methods (GET, POST, PUT, DELETE) to perform operations on resources identified by URLs."
+  },
+  {
+    "id": 22,
+    "category": "Flask",
+    "question": "What is JSON?",
+    "answer": "JSON (JavaScript Object Notation) is a lightweight, text-based data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It's widely used for API communication."
+  },
+  {
+    "id": 23,
+    "category": "Chatbots",
+    "question": "What is a chatbot?",
+    "answer": "A chatbot is a software application that simulates human conversation through text or voice interactions. They range from simple rule-based systems to advanced AI-powered assistants that understand and respond to natural language."
+  },
+  {
+    "id": 24,
+    "category": "Chatbots",
+    "question": "What is the difference between rule-based and AI chatbots?",
+    "answer": "Rule-based chatbots follow predefined scripts and can only respond to specific inputs. AI chatbots use machine learning and NLP to understand context, learn from conversations, and handle a wider variety of inputs more flexibly."
+  },
+  {
+    "id": 25,
+    "category": "Chatbots",
+    "question": "What is intent classification in chatbots?",
+    "answer": "Intent classification is the process of identifying the purpose or goal behind a user's input. For example, 'What's the weather?' has the intent 'get_weather'. It helps chatbots route requests to the right response handler."
+  },
+  {
+    "id": 26,
+    "category": "Data",
+    "question": "What is a CSV file?",
+    "answer": "CSV (Comma-Separated Values) is a plain text file format used to store tabular data. Each line represents a row, and values are separated by commas. It's widely supported and easy to use with Python's built-in `csv` module or Pandas."
+  },
+  {
+    "id": 27,
+    "category": "Data",
+    "question": "What is data preprocessing?",
+    "answer": "Data preprocessing is the process of transforming raw data into a clean, usable format for analysis or model training. It includes handling missing values, removing duplicates, normalization, encoding, and feature engineering."
+  },
+  {
+    "id": 28,
+    "category": "Data",
+    "question": "What is a vector in machine learning?",
+    "answer": "In machine learning, a vector is a one-dimensional array of numbers that represents data numerically. Text, images, and other data types are converted into vectors (feature vectors) so that algorithms can process them mathematically."
+  },
+  {
+    "id": 29,
+    "category": "General AI",
+    "question": "What is a neural network?",
+    "answer": "A neural network is a series of algorithms that attempt to recognize relationships in a set of data through a process that mimics how the human brain works. It consists of layers of interconnected nodes (neurons) that process information."
+  },
+  {
+    "id": 30,
+    "category": "General AI",
+    "question": "What is overfitting in machine learning?",
+    "answer": "Overfitting occurs when a model learns the training data too well, including noise and outliers, causing it to perform poorly on new, unseen data. It's like memorizing answers instead of understanding concepts. Solutions include cross-validation and regularization."
+  },
+  {
+    "id": 31,
+    "category": "General AI",
+    "question": "What is a training dataset?",
+    "answer": "A training dataset is a collection of labeled examples used to train a machine learning model. The model learns patterns from this data. It's split into training, validation, and test sets to evaluate the model's performance fairly."
+  },
+  {
+    "id": 32,
+    "category": "Python",
+    "question": "What is OOP in Python?",
+    "answer": "Object-Oriented Programming (OOP) in Python is a programming paradigm based on the concept of objects, which contain data (attributes) and code (methods). Key concepts include encapsulation, inheritance, polymorphism, and abstraction."
+  },
+  {
+    "id": 33,
+    "category": "NLP",
+    "question": "What is text vectorization?",
+    "answer": "Text vectorization is the process of converting text data into numerical vectors that machine learning algorithms can understand. Common techniques include Bag of Words, TF-IDF, and word embeddings like Word2Vec and GloVe."
+  },
+  {
+    "id": 34,
+    "category": "General AI",
+    "question": "What is a similarity threshold?",
+    "answer": "A similarity threshold is a minimum score value used to determine if two items are considered similar enough to be a match. In chatbots, if cosine similarity between a user query and FAQ is below this threshold, it's treated as unanswerable."
+  },
+  {
+    "id": 35,
+    "category": "Flask",
+    "question": "What is Jinja2 in Flask?",
+    "answer": "Jinja2 is the default templating engine used by Flask. It allows you to embed Python-like expressions and logic inside HTML templates using special syntax like {{ variable }} and {% if/for %} blocks for dynamic content rendering."
+  }
+]
